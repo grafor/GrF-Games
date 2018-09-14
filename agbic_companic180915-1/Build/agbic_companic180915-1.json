@@ -1,0 +1,13 @@
+{
+"companyName": "GrFGames",
+"productName": "AGBIC_ComputerPanic",
+"dataUrl": "agbic_companic180915-1.data.unityweb",
+"wasmCodeUrl": "agbic_companic180915-1.wasm.code.unityweb",
+"wasmFrameworkUrl": "agbic_companic180915-1.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#AAC7AA",
+"cacheControl": {"default": "must-revalidate"}
+}
