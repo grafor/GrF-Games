@@ -1,0 +1,13 @@
+{
+"companyName": "GraFormerGames",
+"productName": "UDO",
+"dataUrl": "wUDO190430-1(kr)(0.0.6_test_t).data.unityweb",
+"wasmCodeUrl": "wUDO190430-1(kr)(0.0.6_test_t).wasm.code.unityweb",
+"wasmFrameworkUrl": "wUDO190430-1(kr)(0.0.6_test_t).wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
