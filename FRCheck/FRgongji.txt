@@ -1,1 +1,53 @@
-현재 점검중입니다 최신버전이 나올때까지 대기바랍니다
+<!DOCTYPE html>
+<html><head>
+<title>프렌드 리스펙트 공지사항</title>
+ 
+
+<style type="text/css">
+body{
+font-size: 100%;
+}
+
+#px{font-size: 9px;}
+#pt{font-size: 6.75pt;}
+#em{font-size: 0.5625em;}
+#per{font-size: 56%;}
+#ab{font-size: xx-small;}
+
+#px2{font-size: 10px;}
+#pt2{font-size: 7.5pt;}
+#em2{font-size: 0.625em;}
+#per2{font-size: 62.5%;}
+#ab2{font-size: x-small;}
+
+#px3{font-size: 13px;}
+#pt3{font-size: 9.75pt;}
+#em3{font-size: 0.8125em;}
+#per3{font-size: 81%;}
+#ab3{font-size: small;}
+
+#px4{font-size: 16px;}
+#pt4{font-size: 12pt;}
+#em4{font-size: 1em;}
+#per4{font-size: 100%;}
+#ab4{font-size: medium;}
+
+</style>
+</head>
+<body>
+
+<p></p>
+ 
+<span id="px18">px 공지그런거없다.</span><br>
+//<span id="pt4">pt 동해물과 백두산이</span><br>
+//<span id="em4">em 동해물과 백두산이</span><br>
+//<span id="per4">% 동해물과 백두산이</span><br>
+//<span id="ab4">medium 동해물과 백두산이</span><br>
+ 
+<p></p>
+
+
+
+
+
+</body></html>
