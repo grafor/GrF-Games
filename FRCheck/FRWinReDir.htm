@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>프렌드 리스펙트 최신버전 리다이렉트</title>
+<meta charset="UTF-8">
+<title>(Win)프렌드 리스펙트 최신버전 리다이렉트</title>
   
+<script src="https://grafor.github.io/GrF-Games/FRCheck/FRWinURL.txt"></script>
   
-<button onclick="openTextFile()">Open</button>
-<div id='output'>...</div>
+</head>
+<body>
   
-  function openTextFile() {
-    var input = document.createElement("input");
- 
-    input.type = "file";
-    input.accept = "text/plain"; // 확장자가 xxx, yyy 일때, ".xxx, .yyy"
- 
-    input.onchange = function (event) {
-        processFile(event.target.files[0]);
-    };
- 
-    input.click();
-}
- 
-function processFile(file) {
-    var reader = new FileReader();
- 
-    reader.onload = function () {
-        output.innerText = reader.result;
-    };
- 
-    reader.readAsText(file, https://grafor.github.io/GrF-Games/FRCheck/FRWinURL.txt "euc-kr");
-}
+    <p style="background-color: #ff0000;">여기가 p태그</p>
+    <p style="background-color: #00ff00;">여기가 p태그</p>
+    <p style="background-color: #0000ff;">여기가 p태그</p>
   
+    <button>클릭시에 배경색을 취득</button>
+  
+     
+ 
+     
+ 
+  
+    <div id="news">로드중.....</div>
+  
+    <script type="text/javascript">
+        // txt 파일 가져오기 (load)
+        $(function() {
+            // 읽어 올 문서의 파일명 , 확인용 함수 (완료 여부)
+            $("#news").load("news.txt", function(txt, status) {
+                if (status == "success") {
+                    alert("로딩 성공");
+                    alert(status);
+                    alert(txt);
+                } else if (status == "error") {
+                    alert("로딩 실패");
+                }
+            });
+  
+            // 배경색 변경
+            $("button").click(function() {
+                // getter
+                // var color = $("p").css("background-color");
+                // alert("color = " + color);
+  
+                // setter
+                // $("p").css("background-color", "#ffff00");
+                 
+                // 여러개 바꾸기, json 방법
+                $("p").css({
+                    "background-color" : "gray",
+                    "font-size" : "200%",
+                    "border" : "solid 5px red"
+                });
+            });
+        });
+    </script>
   
 </body>
 </html>
