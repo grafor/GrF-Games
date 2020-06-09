@@ -1,0 +1,13 @@
+{
+"companyName": "GrfGames",
+"productName": "PotatoTower",
+"dataUrl": "PotatoTower1.1(200610).data.unityweb",
+"wasmCodeUrl": "PotatoTower1.1(200610).wasm.code.unityweb",
+"wasmFrameworkUrl": "PotatoTower1.1(200610).wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
